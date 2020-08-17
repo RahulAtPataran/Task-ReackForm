@@ -1,0 +1,135 @@
+
+.container
+{
+display: flex;
+flex: 1;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url('https://i.pinimg.com/originals/ff/7c/24/ff7c24b816e2253676805c0b434d4094.jpg');
+}
+.Container
+{
+    display: flex;
+
+    width: 70%;
+    height: 80%;
+    flex-direction: column;
+    background-color: white;
+    opacity: .95;
+    padding: 10px;
+
+}
+.upperPart
+{
+    display: flex;
+    flex-direction: row;
+}
+.leftTitle
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.rightRow
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+.addButtonContainer
+{
+    display: flex;
+    width: 80px;
+
+}
+.addButton
+{
+    width: 100%;
+}
+.tableContainer
+{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    overflow: scroll;
+    height: 100%;
+}
+.tableData
+{
+    width: 100%;
+}
+.formContent
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.formMain
+{
+    display: flex;
+    width: 100%;
+    flex:1;
+    flex-direction: column;
+}
+.formHeader
+{   display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.formInputContainer
+{
+    display: flex;
+    width: 100%;
+
+   
+    align-items: center;
+}
+
+.formInput
+{
+    border-radius: 0;
+    padding: 15px 20px;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid black;
+    
+    
+}
+
+.button {
+    color: #fff ;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+    }
+
+    .error
+    {
+        display: flex;
+        flex: 1;
+        margin: 10px;
+        color: red;
+
+    }
+
+.subDiv
+{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+.formContent
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
